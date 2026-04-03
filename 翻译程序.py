@@ -148,6 +148,7 @@ while True:
         }
     }
 
+
     request_url = assemble_ws_auth_url(url, "POST", APIKey, APISecret)
 
     headers = {'content-type': "application/json", 'host': 'itrans.xf-yun.com', 'app_id': APPId}
